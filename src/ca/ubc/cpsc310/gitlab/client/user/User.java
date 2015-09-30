@@ -71,7 +71,7 @@ public class User implements IUser {
 	@Override
 	public void addItemToShoppingCart(ProductItem o) {
 		this.shoppingCart.add(o);
-		
+		return shopping cart;
 	}
 
 	@Override
